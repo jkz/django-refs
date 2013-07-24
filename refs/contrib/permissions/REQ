@@ -1,0 +1,22 @@
+Permissions should be grantable on
+    objects
+by
+    owner
+to
+    users
+
+Each user sets privacy:
+All
+Friends
+
+
+SPEC
+So we need a User to User permission model:
+
+Parent to Parent
+tis is the one I need for self
+
+User to User
+This is managed by the namespace's service
+
+No crossing namespaces

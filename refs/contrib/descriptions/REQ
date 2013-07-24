@@ -1,0 +1,17 @@
+Needs better name:
+django-descriptions
+django-snippet
+django-snppt
+django-note
+django-text
+django-content
+django-cms
+
+
+- Descriptions are snippets of content with a head and a body
+- the snippet content can be 'plain', 'html' or 'markdown'
+
+- A page with pieces of content should be buildable by ajax calls
+- A page with pieces of content should be buildable without ajax calls
+- A page using descriptions in browser should be able to show edit buttons on
+  pieces of content which show an edit form on click

@@ -1,0 +1,16 @@
+Progress is a DAG app to represent dependencies.
+
+Features include:
+
+- an optional parent
+- origin (can be self)
+- list of children
+- list of ancestors
+- list of descendants
+- list of family
+
+
+- append one node to another
+- put one node in between two nodes
+
+- check if element in parents

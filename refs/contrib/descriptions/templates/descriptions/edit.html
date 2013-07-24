@@ -1,0 +1,6 @@
+<form method=post action={% url 'description' obj=description.obj.pk lang=description.lang %}>
+  {% csrf_token %}
+  <input name=head value="{{ description.head }}">
+  <textarea name=body>{{ description.body }}</textarea>
+  <input type=submit value=Save>
+</form>
